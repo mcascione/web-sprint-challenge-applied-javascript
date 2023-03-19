@@ -32,7 +32,7 @@ const Header = (title, date, temp) => {
 
 const headerAppender = (selector) => {
 
-  document.querySelector(selector).appendChild(Header(selector));
+  document.querySelector(selector).appendChild(Header('Bloomtech Times', 'January 6, 2021', "26°" ));
 
   // TASK 2
   // ---------------------
